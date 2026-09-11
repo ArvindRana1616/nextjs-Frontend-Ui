@@ -1,0 +1,74 @@
+.ui-accordion {
+  width: 100%;
+}
+
+/* Accordion Item */
+
+.ui-accordion-item {
+  margin-bottom: 12px !important;
+  border: 1px solid #e5e7eb !important;
+  border-radius: 10px !important;
+  box-shadow: none !important;
+  overflow: hidden;
+}
+
+/* Remove MUI default before line */
+
+.ui-accordion-item::before {
+  display: none !important;
+}
+
+/* Accordion Header */
+
+.ui-accordion-summary {
+  min-height: 58px !important;
+  padding: 0 20px !important;
+  background: #ffffff;
+}
+
+.ui-accordion-summary.Mui-expanded {
+  min-height: 58px !important;
+}
+
+/* Title */
+
+.ui-accordion-title {
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  color: #111827;
+}
+
+/* Content */
+
+.ui-accordion-details {
+  padding: 18px 20px 22px !important;
+  border-top: 1px solid #e5e7eb;
+  background: #f8fafc;
+  color: #475569;
+}
+
+/* Hover */
+
+.ui-accordion-summary:hover {
+  background: #f8fafc;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .ui-accordion-item {
+    margin-bottom: 10px !important;
+  }
+
+  .ui-accordion-summary {
+    padding: 0 16px !important;
+  }
+
+  .ui-accordion-title {
+    font-size: 15px !important;
+  }
+
+  .ui-accordion-details {
+    padding: 16px !important;
+  }
+}

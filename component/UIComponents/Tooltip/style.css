@@ -1,0 +1,22 @@
+.ui-tooltip-wrapper {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Tooltip arrow and content */
+
+.MuiTooltip-tooltip {
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  padding: 8px 12px !important;
+  border-radius: 6px !important;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .MuiTooltip-tooltip {
+    font-size: 12px !important;
+    padding: 7px 10px !important;
+  }
+}

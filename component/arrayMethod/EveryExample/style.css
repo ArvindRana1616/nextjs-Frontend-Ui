@@ -1,0 +1,222 @@
+.every-card {
+  width: 100%;
+  padding: 28px;
+  border-radius: 20px;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+  box-shadow: 0 10px 35px rgba(15, 23, 42, 0.06);
+  box-sizing: border-box;
+}
+
+/* Header */
+
+.every-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.every-title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.every-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 16px;
+  background: #ecfdf5;
+  color: #059669;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.every-icon svg {
+  font-size: 28px;
+}
+
+.every-title {
+  font-size: 24px !important;
+  font-weight: 800 !important;
+  color: #111827;
+}
+
+.every-subtitle {
+  margin-top: 5px !important;
+  color: #64748b;
+  font-size: 14px !important;
+}
+
+.every-badge {
+  background: #ecfdf5;
+  color: #059669;
+  padding: 7px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+
+/* Result */
+
+.every-result {
+  border-radius: 14px !important;
+  border: 1px solid #a7f3d0;
+  background: #f0fdf4 !important;
+  margin-bottom: 18px;
+}
+
+.every-result .MuiCardContent-root {
+  padding: 20px !important;
+}
+
+.every-result-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.every-success-icon {
+  font-size: 32px !important;
+  color: #16a34a;
+}
+
+.every-pending-icon {
+  font-size: 32px !important;
+  color: #d97706;
+}
+
+.every-result-title {
+  font-size: 17px !important;
+  font-weight: 800 !important;
+  color: #111827;
+}
+
+.every-result-text {
+  margin-top: 4px !important;
+  font-size: 13px !important;
+  color: #64748b;
+}
+
+
+/* Tasks */
+
+.every-tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.every-task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 15px 18px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  transition: all 0.25s ease;
+}
+
+.every-task:hover {
+  transform: translateX(4px);
+  border-color: #a7f3d0;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+}
+
+.every-task-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.every-task-title {
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  color: #111827;
+}
+
+.task-completed-icon {
+  color: #16a34a;
+  font-size: 21px !important;
+}
+
+.task-pending-icon {
+  color: #d97706;
+  font-size: 21px !important;
+}
+
+
+/* Explanation */
+
+.every-info {
+  margin-top: 20px;
+  padding: 15px 18px;
+  border-radius: 12px;
+  background: #f8fafc;
+  border: 1px dashed #cbd5e1;
+}
+
+.every-info p {
+  font-size: 13px;
+  color: #64748b;
+}
+
+.every-info strong {
+  color: #059669;
+}
+
+
+/* Footer */
+
+.every-footer {
+  margin-top: 22px;
+  padding-top: 16px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.every-footer p {
+  color: #64748b;
+  font-size: 13px;
+}
+
+.every-footer strong {
+  color: #059669;
+}
+
+
+/* Responsive */
+
+@media (max-width: 600px) {
+
+  .every-card {
+    padding: 20px;
+    border-radius: 16px;
+  }
+
+  .every-header {
+    flex-direction: column;
+  }
+
+  .every-badge {
+    display: none;
+  }
+
+  .every-title {
+    font-size: 21px !important;
+  }
+
+  .every-subtitle {
+    font-size: 13px !important;
+  }
+
+  .every-task {
+    padding: 13px;
+  }
+
+}

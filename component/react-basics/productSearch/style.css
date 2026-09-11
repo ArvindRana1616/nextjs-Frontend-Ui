@@ -1,0 +1,213 @@
+.product-search-card {
+  width: 100%;
+  padding: 28px;
+  border-radius: 20px;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+  box-shadow: 0 10px 35px rgba(15, 23, 42, 0.06);
+  box-sizing: border-box;
+}
+
+/* Header */
+
+.product-search-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 28px;
+}
+
+.product-search-title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.product-search-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 16px;
+  background: #eaf2ff;
+  color: #2563eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-search-icon svg {
+  font-size: 28px;
+}
+
+.product-search-title {
+  font-size: 24px !important;
+  font-weight: 800 !important;
+  color: #111827;
+}
+
+.product-search-subtitle {
+  margin-top: 5px !important;
+  color: #64748b;
+  font-size: 14px !important;
+}
+
+.product-search-badge {
+  background: #eaf2ff;
+  color: #2563eb;
+  padding: 7px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+
+/* Search */
+
+.product-search-input {
+  margin-bottom: 24px !important;
+}
+
+.product-search-input .MuiOutlinedInput-root {
+  border-radius: 12px;
+}
+
+.product-search-input .MuiOutlinedInput-root:hover fieldset {
+  border-color: #2563eb;
+}
+
+.product-search-input .MuiOutlinedInput-root.Mui-focused fieldset {
+  border-color: #2563eb;
+}
+
+.product-search-input .MuiInputAdornment-root {
+  color: #64748b;
+}
+
+
+/* Result Header */
+
+.product-result-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.product-result-header > p {
+  font-size: 15px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.product-count {
+  padding: 6px 12px;
+  border-radius: 20px;
+  background: #f1f5f9;
+  color: #475569;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+
+/* Product Card */
+
+.product-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 14px !important;
+  transition: all 0.25s ease !important;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  border-color: #bfdbfe;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08) !important;
+}
+
+.product-card-content {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px !important;
+}
+
+.product-card-icon {
+  width: 46px;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #f0f6ff;
+  color: #2563eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.product-title {
+  font-size: 17px !important;
+  font-weight: 700 !important;
+  color: #111827;
+}
+
+.product-price {
+  margin-top: 4px !important;
+  color: #2563eb;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+}
+
+
+/* Empty State */
+
+.product-empty {
+  padding: 45px 20px;
+  border: 1px dashed #cbd5e1;
+  border-radius: 14px;
+  text-align: center;
+  color: #94a3b8;
+}
+
+.product-empty svg {
+  font-size: 38px;
+  margin-bottom: 8px;
+}
+
+.product-empty p:first-of-type {
+  color: #475569;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.product-empty p:last-of-type {
+  font-size: 13px;
+}
+
+
+/* Responsive */
+
+@media (max-width: 600px) {
+
+  .product-search-card {
+    padding: 20px;
+    border-radius: 16px;
+  }
+
+  .product-search-header {
+    flex-direction: column;
+  }
+
+  .product-search-badge {
+    display: none;
+  }
+
+  .product-search-title {
+    font-size: 21px !important;
+  }
+
+  .product-search-subtitle {
+    font-size: 13px !important;
+  }
+
+}

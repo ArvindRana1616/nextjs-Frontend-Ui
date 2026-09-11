@@ -1,0 +1,115 @@
+.hooks-card {
+  height: 100%;
+  border-radius: 16px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 8px 30px rgba(15, 23, 42, 0.06);
+  transition: all 0.3s ease;
+}
+
+.hooks-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 35px rgba(15, 23, 42, 0.1);
+}
+
+.hooks-card-content {
+  padding: 32px;
+}
+
+.hooks-title {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.hooks-description {
+  color: #64748b;
+  margin-bottom: 24px;
+}
+
+.hook-example {
+  width: 100%;
+}
+
+.hook-name {
+  font-size: 22px !important;
+  font-weight: 800 !important;
+  color: #111827;
+  margin-bottom: 8px !important;
+}
+
+.hook-description {
+  color: #64748b;
+  font-size: 14px !important;
+  line-height: 1.6 !important;
+  margin-bottom: 24px !important;
+}
+
+.hook-demo {
+  padding: 24px;
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.hook-demo-label {
+  color: #64748b;
+  font-size: 14px !important;
+  margin-bottom: 12px !important;
+}
+
+.hook-count {
+  font-size: 42px !important;
+  font-weight: 800 !important;
+  color: #111827;
+  margin-bottom: 20px !important;
+}
+
+.hook-actions {
+  margin-top: 8px;
+}
+
+.hook-btn {
+  min-width: 48px !important;
+  height: 42px !important;
+  border-radius: 10px !important;
+  text-transform: none !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  box-shadow: none !important;
+  transition: all 0.2s ease !important;
+}
+
+.hook-btn:hover {
+  transform: translateY(-2px);
+}
+
+.hook-btn-minus {
+  color: #dc2626 !important;
+  border: 1px solid #fecaca !important;
+  background: #fef2f2 !important;
+}
+
+.hook-btn-minus:hover {
+  background: #fee2e2 !important;
+}
+
+.hook-btn-reset {
+  min-width: 80px !important;
+  color: #475569 !important;
+  border: 1px solid #cbd5e1 !important;
+  background: #ffffff !important;
+}
+
+.hook-btn-reset:hover {
+  background: #f1f5f9 !important;
+}
+
+.hook-btn-plus {
+  color: #ffffff !important;
+  background: #2563eb !important;
+  border: 1px solid #2563eb !important;
+}
+
+.hook-btn-plus:hover {
+  background: #1d4ed8 !important;
+}

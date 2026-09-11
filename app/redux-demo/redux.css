@@ -1,0 +1,141 @@
+.redux-counter-card {
+  width:inherit;
+  max-Width: 100%;
+  margin: 30px 0;
+  padding: 32px;
+  border-radius: 20px;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.redux-counter-title {
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  margin-bottom: 20px !important;
+}
+
+.redux-counter-value {
+  font-size: 56px !important;
+  font-weight: 700 !important;
+  margin-bottom: 25px !important;
+}
+
+.redux-counter-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.redux-counter-actions button {
+  min-width: 80px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.redux-cart-card {
+   width:inherit;
+  max-Width: 100%;
+  margin: 30px 0;
+  padding: 24px;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+.redux-cart-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.redux-cart-title {
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  color: #111827;
+}
+
+.redux-cart-subtitle {
+  margin-top: 4px !important;
+  font-size: 13px !important;
+  color: #64748b;
+}
+
+.redux-cart-count {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: #f1f5f9;
+  font-size: 16px;
+  font-weight: 700;
+  color: #334155;
+}
+
+.redux-cart-content {
+  margin-top: 20px;
+}
+
+.redux-cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  margin-bottom: 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+}
+
+.redux-cart-product {
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  color: #1e293b;
+}
+
+.redux-cart-price {
+  margin-top: 5px !important;
+  font-size: 14px !important;
+  color: #64748b;
+}
+
+.redux-cart-quantity {
+  padding: 6px 10px;
+  border-radius: 8px;
+  background: #f8fafc;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  color: #475569;
+}
+
+.redux-cart-empty {
+  padding: 30px 10px;
+  text-align: center;
+  color: #94a3b8;
+}
+.redux-products-grid {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .redux-products-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .redux-products-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+}

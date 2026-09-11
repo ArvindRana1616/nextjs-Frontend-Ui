@@ -1,0 +1,170 @@
+.dynamic-card {
+  width: 100%;
+  padding: 28px;
+  border-radius: 20px;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+  box-shadow: 0 10px 35px rgba(15, 23, 42, 0.06);
+  box-sizing: border-box;
+}
+
+/* Header */
+
+.dynamic-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.dynamic-title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.dynamic-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 16px;
+  background: #eff6ff;
+  color: #2563eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dynamic-icon svg {
+  font-size: 28px;
+}
+
+.dynamic-title {
+  font-size: 24px !important;
+  font-weight: 800 !important;
+  color: #111827;
+}
+
+.dynamic-subtitle {
+  margin-top: 5px !important;
+  color: #64748b;
+  font-size: 14px !important;
+}
+
+.dynamic-badge {
+  background: #eff6ff;
+  color: #2563eb;
+  padding: 7px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* Fields */
+
+.dynamic-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.dynamic-field {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dynamic-field .MuiTextField-root {
+  flex: 1;
+}
+
+.dynamic-field .MuiOutlinedInput-root {
+  border-radius: 12px;
+}
+
+/* Buttons */
+
+.dynamic-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+
+.dynamic-add-button {
+  border-radius: 10px !important;
+  text-transform: none !important;
+  font-weight: 700 !important;
+}
+
+.dynamic-submit-button {
+  border-radius: 10px !important;
+  text-transform: none !important;
+  font-weight: 700 !important;
+}
+
+/* Explanation */
+
+.dynamic-info {
+  margin-top: 22px;
+  padding: 15px 18px;
+  border-radius: 12px;
+  background: #f8fafc;
+  border: 1px dashed #cbd5e1;
+}
+
+.dynamic-info p {
+  font-size: 13px;
+  color: #64748b;
+}
+
+.dynamic-info strong {
+  color: #2563eb;
+}
+
+/* Footer */
+
+.dynamic-footer {
+  margin-top: 22px;
+  padding-top: 16px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.dynamic-footer p {
+  color: #64748b;
+  font-size: 13px;
+}
+
+.dynamic-footer strong {
+  color: #2563eb;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .dynamic-card {
+    padding: 20px;
+    border-radius: 16px;
+  }
+
+  .dynamic-header {
+    flex-direction: column;
+  }
+
+  .dynamic-badge {
+    display: none;
+  }
+
+  .dynamic-title {
+    font-size: 21px !important;
+  }
+
+  .dynamic-subtitle {
+    font-size: 13px !important;
+  }
+
+  .dynamic-field {
+    align-items: flex-start;
+  }
+}

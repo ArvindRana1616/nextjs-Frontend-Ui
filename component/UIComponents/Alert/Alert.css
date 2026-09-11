@@ -1,0 +1,33 @@
+.ui-alert {
+  min-width: 300px;
+  border-radius: 10px !important;
+  font-weight: 600 !important;
+  box-shadow: 0 8px 25px rgba(15, 23, 42, 0.15);
+}
+
+/* Alert Message */
+
+.ui-alert-message {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Close Button */
+
+.ui-alert-close {
+  margin-left: 8px !important;
+  padding: 4px !important;
+}
+
+/* Responsive */
+
+@media (max-width: 600px) {
+  .ui-alert {
+    min-width: auto;
+    width: calc(100vw - 32px);
+  }
+
+  .ui-alert-message {
+    font-size: 13px;
+  }
+}
