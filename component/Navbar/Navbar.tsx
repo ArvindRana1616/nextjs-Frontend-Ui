@@ -196,7 +196,9 @@ export default function Navbar() {
             {menuItems.map((item) => (
               <ListItemButton
                 key={item.label}
-                onClick={() => setOpen(false)}
+                 component={Link}
+                  href={item.path}
+                  onClick={() => setOpen(false)}
                 sx={{
                   borderRadius: 2,
                   mx: 1,
